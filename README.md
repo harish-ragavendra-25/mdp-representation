@@ -45,18 +45,16 @@ p = {
     },
     1: { #FIRST FLOOR
         0:[(0.9,0,-1.0,False),(0.1,1,-1.0,False)],
-        1:[(0.9,2,+10.0,False),(0.1,1,-1.0,False)]
+        1:[(0.9,2,+10.0,True),(0.1,1,-1.0,False)]
     },
     2: { #SECOND FLOOR
-        0:[(0.9,1,-1.0,False),(0.1,2,+10.0,False)],
-        1:[(0.9,2,+10.0,False),(0.1,1,-1.0,False)]
+        0:[(0.9,1,-1.0,False),(0.1,2,+10.0,True)],
+        1:[(0.9,2,+10.0,True),(0.1,1,-1.0,False)]
     }
 }
 ```
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/3925b2af-b302-416a-9006-b3c3b0a51cf8)
-
-
+![image](https://github.com/user-attachments/assets/93c2f12f-c520-4c54-9664-c856caa47414)
 ## RESULT:
 Thus the given real world problem is successfully represented in a MDP form.
